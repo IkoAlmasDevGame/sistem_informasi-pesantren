@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+thead > tr > th{
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    font-style: normal;
+}
+
+tbody > tr > td{
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card-width {
+    width: 360px;
+}
+
+.card-height {
+    height: 220px;
+}
+@media (max-height: 500px) {
+    .card-height {
+        max-height: 500px;
+    }
+}
+@media (max-width: 720px) {
+    .card-width {
+        max-width: 720px;
+    }
+}
+
+.fa-refresh {
+    animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
